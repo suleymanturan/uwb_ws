@@ -2,7 +2,7 @@ manifest:
   version: "0.01"
   remotes:
     - name: uwb_ws
-      url-base: https://github.com/svhoy/uwb_zephyr_project
+      url-base: https://github.com/suleymanturan/uwb_ws
     - name: zephyrproject
       url-base: https://github.com/zephyrproject-rtos
 
