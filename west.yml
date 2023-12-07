@@ -1,5 +1,5 @@
 manifest:
-  version: "0.01"
+  version: "0.13"
   remotes:
     - name: uwb_ws
       url-base: https://github.com/suleymanturan/uwb_ws
