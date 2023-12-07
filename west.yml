@@ -1,0 +1,36 @@
+manifest:
+  version: "0.01"
+  remotes:
+    - name: uwb_ws
+      url-base: https://github.com/svhoy/uwb_zephyr_project
+    - name: zephyrproject
+      url-base: https://github.com/zephyrproject-rtos
+
+  defaults:
+    remote: uwb_ws
+
+  projects:
+    - name: zephyr
+      repo-path: zephyr
+      remote: zephyrproject
+      revision: main
+      import:
+        name-whitelist:
+          - cmsis
+          - edtt
+          - fatfs
+          - hal_nordic
+          - libmetal
+          - littlefs
+          - lvgl
+          - mbedtls
+          - mcumgr
+          - mipi-sys-t
+          - net-tools
+          - nrf_hw_models
+          - openthread
+          - segger
+          - tinycrypt
+
+  self:
+    path: uwb_ws

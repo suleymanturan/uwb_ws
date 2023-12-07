@@ -1,0 +1,12 @@
+config SIT_BLE
+	bool "SIT BLE Interface"
+	imply BT
+	imply FLASH
+	help
+	  Enable BLE Funcionality 
+	  
+config SIT_CTS
+	bool "SIT CTS Interface"
+	help
+	  Enable CTS Funcionality 
+
